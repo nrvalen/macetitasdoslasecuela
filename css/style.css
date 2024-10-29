@@ -1,4 +1,4 @@
-.conatiner_encabezado{
+.container_encabezado{
     position: fixed;
     top: 0;
     left: 0;
@@ -13,3 +13,19 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
+.container-lado{
+    height: 83%; /* Full-height: remove this if you want "auto" height */
+    width: 230px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 0; /* Stay on top */
+    bottom: 0; /* Stay at the top */
+    left: 0;
+    background-color: pink; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    /*texto*/
+    font-size: 18px;
+    font-family: 'century gothic';
+  }
