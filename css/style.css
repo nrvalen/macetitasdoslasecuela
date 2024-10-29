@@ -2,73 +2,72 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Cambia de 300% a 100% */
-    height: 15%; /* Ajusta si es necesario */
+    width: 100%; 
+    height: 15%; 
     padding: 10px 20px;
     background: #555;
     color: #f1f1f1;
     z-index: 1;
     font-family: 'century gothic';
     display: flex;
-    justify-content: space-between; /* Alinea los elementos hacia los extremos */
-    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; 
+    align-items: center;
 }
 
   .container_nombre {
     position: absolute;
-    top: 10px; /* Ajusta el valor según lo necesites */
-    left: 10px; /* Ajusta el valor según lo necesites */
+    top: 10px; 
+    left: 10px; 
 }
 
 .container_logo {
     position: absolute;
-    top: 10px; /* Ajusta el valor según lo necesites */
-    right: 20px; /* Ajusta el valor según lo necesites */
+    top: 10px; 
+    right: 20px; 
 }
 
 .container-lado{
-    height: 83%; /* Full-height: remove this if you want "auto" height */
-    width: 230px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 0; /* Stay on top */
-    bottom: 0; /* Stay at the top */
+    height: 83%; 
+    width: 230px; 
+    position: fixed; 
+    z-index: 0; 
+    bottom: 0; 
     left: 0;
-    background-color: pink; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: pink; 
+    overflow-x: hidden; 
     padding-top: 20px;
-    /texto/
     font-size: 18px;
     font-family: 'century gothic';
   }
 
   .container_productos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Ajuste del tamaño mínimo */
-    row-gap: 60px; /* Espacio entre los productos */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+    row-gap: 60px; 
     column-gap: 20px;
     padding: 20px;
-    margin-top: 9%; /* Ajusta este valor según la altura del encabezado */
-    margin-left: 250px; /* Ajusta según el ancho de la barra lateral */
+    margin-top: 9%; 
+    margin-left: 250px; 
     font-family: 'century gothic';
 }
 
 .producto1, .producto2, .producto3, .producto4, .producto5, 
 .producto6, .producto7, .producto8, .producto9, .producto10 {
-    background-color: #f9f9f9; /* Fondo de cada producto */
+    background-color: #f9f9f9; 
     border: 1px solid #ddd;
     padding: 15px;
     text-align: center;
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
-    display: flex; /* Flexbox para alinear contenido */
-    flex-direction: column; /* Apila el contenido verticalmente */
-    justify-content: space-between; /* Espacio entre elementos */
-    height: 100%; /* Asegura que todos los productos tengan la misma altura */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%; 
 }
 
 img {
-    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de las imágenes */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .container_button{
@@ -86,3 +85,17 @@ img {
     transform: scale(1.1);
     background-color: plum;
   }
+
+.instagram{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #885996;
+    color: plum;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.instagram:hover{
+    transform: scale(1.1);
+    background-color: plum;
+}
