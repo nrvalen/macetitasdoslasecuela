@@ -14,20 +14,17 @@
     align-items: center; /* Centra verticalmente los elementos */
 }
 
-
   .container_nombre {
     position: absolute;
     top: 10px; /* Ajusta el valor según lo necesites */
     left: 10px; /* Ajusta el valor según lo necesites */
 }
 
-
 .container_logo {
     position: absolute;
     top: 10px; /* Ajusta el valor según lo necesites */
     right: 20px; /* Ajusta el valor según lo necesites */
 }
-
 
 .container-lado{
     height: 83%; /* Full-height: remove this if you want "auto" height */
@@ -39,40 +36,39 @@
     background-color: pink; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-    /*texto*/
+    /texto/
     font-size: 18px;
     font-family: 'century gothic';
   }
 
-.container_productos {
+  .container_productos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* tamaño mínimo */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Ajuste del tamaño mínimo */
     row-gap: 60px; /* Espacio entre los productos */
     column-gap: 20px;
     padding: 20px;
-    margin-top: 9%; /* altura del encabezado */
-    margin-left: 250px; 
+    margin-top: 9%; /* Ajusta este valor según la altura del encabezado */
+    margin-left: 250px; /* Ajusta según el ancho de la barra lateral */
     font-family: 'century gothic';
 }
 
-.producto1, .producto2, .producto3, .producto4,
-.producto5, .producto6, .producto7, .producto8, .producto9, .producto10 {
-    background-color: #f9f9f9; 
+.producto1, .producto2, .producto3, .producto4, .producto5, 
+.producto6, .producto7, .producto8, .producto9, .producto10 {
+    background-color: #f9f9f9; /* Fondo de cada producto */
     border: 1px solid #ddd;
     padding: 15px;
     text-align: center;
-    border-radius: 8px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-between; 
-    height: 100%; 
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    display: flex; /* Flexbox para alinear contenido */
+    flex-direction: column; /* Apila el contenido verticalmente */
+    justify-content: space-between; /* Espacio entre elementos */
+    height: 100%; /* Asegura que todos los productos tengan la misma altura */
 }
 
-
 img {
-    max-width: 100%; 
-    height: auto; 
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
 }
 
 .container_button{
@@ -90,4 +86,3 @@ img {
     transform: scale(1.1);
     background-color: plum;
   }
-
