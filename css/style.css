@@ -33,7 +33,7 @@
     z-index: 0; 
     bottom: 0; 
     left: 0;
-    background-color:mediumslateblue; 
+    background-color:rgb(147, 117, 212); 
     overflow-x: hidden; 
     padding-top: 20px;
     font-size: 18px;
@@ -103,5 +103,9 @@ img {
 
 body{
     background-color: #cebad4; 
+    background-image: url(https://1drv.ms/u/c/f31e98b8b23460af/EVi5hDwGSFtGnDQbOpFRAg0Be27D_7_62l99qWOaQm3U2w)  ;
+    background-repeat: repeat;
 }
+
+
 
