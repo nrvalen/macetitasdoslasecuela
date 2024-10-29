@@ -29,3 +29,16 @@
     font-size: 18px;
     font-family: 'century gothic';
   }
+
+  .container_nombre {
+    position: absolute;
+    top: 10px; /* Ajusta el valor según lo necesites */
+    left: 10px; /* Ajusta el valor según lo necesites */
+}
+
+
+.container_logo {
+    position: absolute;
+    top: 10px; /* Ajusta el valor según lo necesites */
+    right: 20px; /* Ajusta el valor según lo necesites */
+}
