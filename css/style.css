@@ -200,16 +200,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     height: 15px;
 }
 
-.doll-izq{
+.personajes-izq{
     position:fixed; 
     top:200px; 
     left: 5px; 
     z-index:3;
 }
-.doll-izq img, .doll-der img{
+.personajes-izq img, .personajes-der img{
     width: 250px;
 }
-.doll-der{
+.personajes-der{
     position:fixed;
     top:200px;
     right:30px;
